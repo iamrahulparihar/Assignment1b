@@ -31,7 +31,7 @@ module.exports = class assignment extends Order{
           case OrderState.WELCOMING:
                 this.stateCur = OrderState.CONTACT;
                 aReturn.push("Welcome to Faluda shop.");
-                aReturn.push("Please enter your contact number");
+                aReturn.push("Please enter your contact number.");
                 break; 
                 //contact
           case OrderState.CONTACT:
@@ -68,7 +68,7 @@ module.exports = class assignment extends Order{
                       this.stateCur=OrderState.SIZE
                       break;
                 }
-                aReturn.push("What flavour would you like to have");
+                aReturn.push("What flavour would you like to have?");
                 aReturn.push("Kesar or badam?");   
                 aReturn.push("any flavor- $2 ");        
                   aReturn.push("Please type 'kesar' or 'badam' ");           
@@ -89,9 +89,9 @@ module.exports = class assignment extends Order{
                       break;
                 }
                 aReturn.push(" Would you like to have toppings? ");
-                aReturn.push(" Jalebi=$5 or ice crream= $5 ");
+                aReturn.push(" Jalebi=$5 or icecream= $5 ");
                 aReturn.push("Type 'jalebi' or 'icecream' ");
-                aReturn.push("Type no if you do not want to add.")
+                aReturn.push("Type 'no' if you do not want to add.")
                 break;
                 ////toppings
                 case OrderState.TOPPINGS:
@@ -113,7 +113,7 @@ module.exports = class assignment extends Order{
                       break;
                 }
 
-                  aReturn.push("We have barfi or ladoo available ");
+                  aReturn.push("We have 'barfi' or 'ladoo' available in sweets");
                   aReturn.push("you can have any sweet for $5");
                   aReturn.push("Please type 'barfi' or 'ladoo' ");
                   aReturn.push("Type 'no' if you do not want to add any  ");
