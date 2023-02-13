@@ -113,7 +113,7 @@ module.exports = class assignment extends Order{
                       break;
                 }
 
-                  aReturn.push("barfi or ladoo ");
+                  aReturn.push("We have barfi or ladoo available ");
                   aReturn.push("you can have any sweet for $5");
                   aReturn.push("Please type 'barfi' or 'ladoo' ");
                   aReturn.push("Type 'no' if you do not want to add any  ");
