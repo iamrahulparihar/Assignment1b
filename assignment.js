@@ -88,7 +88,7 @@ module.exports = class assignment extends Order{
                     this.stateCur=OrderState.FLAVOUR
                       break;
                 }
-                aReturn.push(" Would you like to have another item? ");
+                aReturn.push(" Would you like to have toppings? ");
                 aReturn.push(" Jalebi=$5 or ice crream= $5 ");
                 aReturn.push("Type 'jalebi' or 'icecream' ");
                 aReturn.push("Type no if you do not want to add.")
